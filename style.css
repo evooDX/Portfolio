@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+header {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 10;
+}
+.sociale1 {
+    width: auto;
+    height: 50px;
+    padding-top:10px;
+    transition: all 0.3s ease;
+}
+.sociale1:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.sociale2 {
+    width: auto;
+    height: 50px;
+    padding-top:10px;
+    transition: all 0.3s ease;
+}
+.sociale2:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    font-weight: 1000;
+    color: rgb(234, 234, 234);
+    transition: all 0.3s ease;
+    text-shadow: 3px 3px 3px rgb(87, 87, 87);
+}
+.prawo > a {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+    
+}
+.srodek {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+.lewo {
+    margin-left: 10px;
+    color: yellow;
+    }
+.prawo {
+    margin-right: 10px;
+}
+.sekcja1 {
+    padding-top: 100px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    text-align: center;
+    height: 50vh;
+    color: rgb(234, 234, 234)
+}
+.sekcja1_lewo {
+    width:40%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.sekcja1_lewo > h1 {
+    color: yellow;
+}
+.sekcja1_lewo > p {
+    text-align: left;
+}
+.sekcja1_prawo {
+    width: 30%;
+      margin-left: 5%;
+  margin-right: 5%;
+}
+.sekcja2 {
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+    padding-bottom: 30px;
+    padding-top: 1px;
+    
+}
+.div_sekcja2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.wot {
+    border-radius: 35px;
+        backdrop-filter: blur(7px);
+  transition: all 0.3s ease;
+
+}
+.wot:hover {
+  box-shadow: 0 0 20px 5px rgba(78, 78, 78, 0.8);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.img1{
+    position: relative;
+      display: inline-block;
+}
+.tekst_img1 {
+    z-index: 1;
+    position: absolute;
+    top: 50%;                 /* środek pionowy */
+    left: 50%;                /* środek poziomy */
+    transform: translate(-90%, -90%); /* wycentrowanie */
+    color: white;
+    text-align: left;
+      text-shadow: 6px 6px 10px rgba(0,0,0,1);
+        pointer-events: none;
+}
+.tekst_img1 > h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+
+}
+.tekst_img1 > p {
+    font-size: 18px;
+}
+.sekcja3 {
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    padding-top: 1px;
+    padding-bottom: 20px;
+    color: rgb(234, 234, 234);
+}
+.div_sekcja3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 200px;
+}
+.p_edukacja {
+    text-align: left;
+    font-size: 25px;
+}
+.certyfikat1 {
+  width: 250px; /* ustaw szerokość jak chcesz */
+  filter: blur(6px); /* rozmazanie */
+  border-radius: 10px;
+}
+.ja{
+    width: auto;
+    height: 90%;
+    border-radius: 50px;
+    border: 4px solid yellow;
+
+}
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.sekcja4 {
+    background-color: rgb(234, 234, 234);
+    padding-top: 1px;
+    padding-bottom:20px;
+    font-size: 17px;
+}
+.przycisk {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.przycisk img {
+  width: 450px;
+  height: auto;
+  filter: blur(8px) brightness(70%);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #FFD700; /* żółty */
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  transition: transform 0.3s ease;
+}
+.przycisk:hover .overlay {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+/* zawartość */
+.modal_content {
+  background: rgba(255, 255, 255, 0);
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 900px;
+  position: relative;
+}
+/* grid certyfikatów */
+.cert_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.cert_grid img {
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.cert_grid img:hover {
+  transform: scale(1.05);
+}
